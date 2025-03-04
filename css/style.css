@@ -18,6 +18,13 @@
     font-display: swap;
 }
 
+body {
+    background-image: url("../img/background.png");
+    background-size: contain;
+}
+
+
+
 .color_h1 {
     color: #6CC2CF ;
 }
@@ -186,3 +193,9 @@ a {
     font-family: "Amita";
     color: black;
 }
+
+.fondo_2 {
+    width: 100%;
+    background-color: rgba(157, 89, 124, 0.1);
+}
+
