@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Amita';
+    src: url('../fonts/Amita-Regular.woff2') format('woff2'),
+        url('../fonts/Amita-Regular.woff') format('woff'),
+        url('../fonts/Amita-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Medium.woff2') format('woff2'),
+        url('../fonts/RobotoCondensed-Medium.woff') format('woff'),
+        url('../fonts/Roboto_Condensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.color_h1 {
+    color: #6CC2CF ;
+}
+
+section {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto condensed", Arial, Helvetica, sans-serif
+}
+
+.logo_kevet {
+    width: 30%;
+    box-sizing: border-box;
+    position:absolute ;
+    margin-left: 50px;
+    margin-top: 4rem;
+}
+
+.width_xl {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.section_3cl {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+
+    img {
+        width: 6rem;
+        justify-content: center;
+        
+        
+    }
+    
+    h1 {
+        color: #6CC2CF;
+    }
+}
+
+.section_1cl {
+    display: flex;
+    text-align: justify;
+p{
+    text-align: center;
+}
+
+div {
+    width: 100%;
+}
+}
+
+header img {
+    width: 100%;
+    display: block;
+    
+}
+
+nav {
+    background-color:rgb(244, 186, 222);
+    border-style:none;
+    top:none;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        list-style: none;
+        padding: 1rem 0px;
+    }
+    
+    a {
+        text-decoration-line:none;
+        font-size: 1.5rem;
+        color: black ;
+
+
+    }
+
+}
+
+section > div {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+
+    img {
+        width: 100%;
+    }
+}
+
+h1 {
+    font-family: "Amita", italic;
+    text-align: center;
+    margin-top: 3rem ;
+    margin-bottom: 2rem;
+}
+
+section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.icons_size {
+    width: 100px;
+}
+
+.centrado_vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+footer div  {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+ h1 {
+    width: 100%;
+    align-items: center;
+ }
+
+}
+
+.img { 
+    img {
+        width: 150px;
+}
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.imagen_redonda {
+    img {
+        border-radius: 70%;
+    }
+}
+
+a {
+    font-family: "Amita";
+    color: black;
+}
